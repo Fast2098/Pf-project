@@ -768,10 +768,10 @@ for (int i = 8; i < 12; i++) {
             }
         }
         
-        // if (Keyboard::isKeyPressed(Keyboard::Escape))
-        // {
-        //     window.close();
-        // }
+        if (Keyboard::isKeyPressed(Keyboard::Escape))
+        {
+            window.close();
+        }
         
         float velocityX = 0;
         
